@@ -60,7 +60,11 @@ class ProjectController extends Controller
 
         $data = $request->all();
 
-        $imagePath = Storage::put('uploads', $request->has('image'));
+        $imagePath = Storage::disk('public')->put(
+            'uploads',
+            $request->image
+        );
+        // $imagePath = Storage::put('uploads', $request->has('image'));
 
         $newProject = new Project();
         $newProject->title = $data['title'];
@@ -103,7 +107,10 @@ class ProjectController extends Controller
 
         if ($request->has('image')) {
             // salvo la nuova eventuale immagine
-            $imagePath = Storage::put('uploads', $data['image']);
+            $imagePath = Storage::disk('public')->put(
+                'uploads',
+                $request->image
+            );
             // elimino l'immagine vecchia se presente una nuova
             if ($project->image) {
                 Storage::delete($project->image);

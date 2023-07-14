@@ -4,7 +4,7 @@ return [
         'title' => 'London Trip',
         'author' => 'Domenico Ferrari',
         'url_github' => 'https://github.com/Domenic0Ferrari/html-london-trip',
-        'image' => '../public/uploads/london-trip.png',
+        'image' => 'uploads/london-trip.png',
         'description' => 'Esercizio di base per HTML, una sorta di diario di bordo.',
         'type_id' => '2',
         'technologies' => [
@@ -27,7 +27,7 @@ return [
         'title' => 'Float Cards',
         'author' => 'Domenico Ferrari',
         'url_github' => 'https://github.com/Domenic0Ferrari/html-css-float-cards',
-        'image' => 'float-cards.png',
+        'image' => 'uploads/float-cards.png',
         'description' => 'Esercizio di CSS per imparare ad utilizzare il metodo "Float".',
         'type_id' => '2',
         'technologies' => [
@@ -39,7 +39,7 @@ return [
         'title' => 'Booleaner',
         'author' => 'Domenico Ferrari',
         'url_github' => 'https://github.com/Domenic0Ferrari/html-css-booleaner',
-        'image' => 'booleaner.png',
+        'image' => 'uploads/booleaner.png',
         'description' => 'Esercizio misto di HTML e CSS che simula un articolo scientifico.',
         'type_id' => '2',
         'technologies' => [
@@ -51,7 +51,7 @@ return [
         'title' => 'Struttura Discord',
         'author' => 'Domenico Ferrari',
         'url_github' => 'https://github.com/Domenic0Ferrari/htmlcss-struttura-discord',
-        'image' => 'struttura-discord.png',
+        'image' => 'uploads/struttura-discord.png',
         'description' => 'Esercizio misto di HTML e CSS di preparazione ad uno più complesso.',
         'type_id' => '2',
         'technologies' => [
@@ -63,7 +63,7 @@ return [
         'title' => 'Discord',
         'author' => 'Domenico Ferrari',
         'url_github' => 'https://github.com/Domenic0Ferrari/htmlcss-discord',
-        'image' => 'discord.png',
+        'image' => 'uploads/discord.png',
         'description' => 'Esercizio misto di HTML e CSS dove viene simulato il sito web del famoso "Discord".',
         'type_id' => '2',
         'technologies' => [
@@ -75,7 +75,7 @@ return [
         'title' => 'Boolando',
         'author' => 'Domenico Ferrari',
         'url_github' => 'https://github.com/Domenic0Ferrari/html-css-boolando',
-        'image' => 'boolando.png',
+        'image' => 'uploads/boolando.png',
         'description' => 'Esercizio misto di HTML e CSS dove viene simulato il sito web del famoso "Zalando" con aggiunta anche di effetti di hover.',
         'type_id' => '2',
         'technologies' => [
@@ -87,7 +87,7 @@ return [
         'title' => 'Zoom',
         'author' => 'Domenico Ferrari',
         'url_github' => 'https://github.com/Domenic0Ferrari/html-css-zoom',
-        'image' => 'zoom.png',
+        'image' => 'uploads/zoom.png',
         'description' => 'Esercizio misto di HTML e CSS dove viene simulato il sito web del famoso "Zoom".',
         'type_id' => '2',
         'technologies' => [
@@ -99,7 +99,7 @@ return [
         'title' => 'Animation Filter',
         'author' => 'Domenico Ferrari',
         'url_github' => 'https://github.com/Domenic0Ferrari/html-css-animation-filter',
-        'image' => 'animation.png',
+        'image' => 'uploads/animation.png',
         'description' => 'Esercizio misto di HTML e CSS per imparare ad usare le animazioni.',
         'type_id' => '2',
         'technologies' => [
@@ -111,7 +111,7 @@ return [
         'title' => 'Wannabe',
         'author' => 'Domenico Ferrari',
         'url_github' => 'https://github.com/Domenic0Ferrari/html-css-resp-wannabe',
-        'image' => 'wannabe.png',
+        'image' => 'uploads/wannabe.png',
         'description' => 'Esercizio misto di HTML e CSS per imparare il sistema responsive.',
         'type_id' => '2',
         'technologies' => [
@@ -123,7 +123,7 @@ return [
         'title' => 'Dropbox',
         'author' => 'Domenico Ferrari',
         'url_github' => 'https://github.com/Domenic0Ferrari/htmlcss-dropbox',
-        'image' => 'dropbox.png',
+        'image' => 'uploads/dropbox.png',
         'description' => 'Esercizio misto di HTML e CSS che simula il famoso sito "Dropbox".',
         'type_id' => '2',
         'technologies' => [
@@ -135,7 +135,7 @@ return [
         'title' => 'Layout Responsive',
         'author' => 'Domenico Ferrari',
         'url_github' => 'https://github.com/Domenic0Ferrari/htmlcss-responsive-layout',
-        'image' => 'responsive-layout.png',
+        'image' => 'uploads/responsive-layout.png',
         'description' => 'Esercizio misto di HTML e CSS per costruire un sito completamente responsive.',
         'type_id' => '2',
         'technologies' => [
@@ -147,7 +147,7 @@ return [
         'title' => 'Spotify Web',
         'author' => 'Domenico Ferrari',
         'url_github' => 'https://github.com/Domenic0Ferrari/html-css-spotifyweb',
-        'image' => 'spotify.png',
+        'image' => 'uploads/spotify.png',
         'description' => 'Replica del design di Spotify, completamente responsive.',
         'type_id' => '2',
         'technologies' => [
@@ -159,7 +159,7 @@ return [
         'title' => '12-bool',
         'author' => 'Domenico Ferrari',
         'url_github' => 'https://github.com/Domenic0Ferrari/html-css-12bool',
-        'image' => '12-col.png',
+        'image' => 'uploads/12-col.png',
         'description' => 'Esercizio per imparare ad usare le "col".',
         'type_id' => '2',
         'technologies' => [
@@ -171,7 +171,7 @@ return [
         'title' => 'Bootstrap Freelancer',
         'author' => 'Domenico Ferrari',
         'url_github' => 'https://github.com/Domenic0Ferrari/html-css-bootstrap-freelancer',
-        'image' => 'bootstrap-freelancer.png',
+        'image' => 'uploads/bootstrap-freelancer.png',
         'description' => 'Primo esercizio con l\'utilizzo di bootstrap.',
         'type_id' => '2',
         'technologies' => [
@@ -183,7 +183,7 @@ return [
         'title' => 'Bootstrap Dashboard',
         'author' => 'Domenico Ferrari',
         'url_github' => 'https://github.com/Domenic0Ferrari/html-css-bootstrap-dashboard',
-        'image' => 'bootstrap-dashboard.png',
+        'image' => 'uploads/bootstrap-dashboard.png',
         'description' => 'Secondo esercizio con l\'utilizzo di bootstrap.',
         'type_id' => '2',
         'technologies' => [
