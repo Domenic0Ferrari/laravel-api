@@ -20,4 +20,5 @@ use App\Http\Controllers\Api\ProjectController;
 // });
 
 Route::get('projects', [ProjectController::class, 'index'])->name('api.projects.index'); // nomesito/api/projects
+Route::get('projects/random', [ProjectController::class, 'random'])->name('api.projects.random');
 Route::get('projects/{project}', [ProjectController::class, 'show'])->name('api.projects.show');
