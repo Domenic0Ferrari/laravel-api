@@ -60,11 +60,12 @@ class ProjectController extends Controller
 
         $data = $request->all();
 
-        $imagePath = Storage::disk('public')->put(
-            'uploads',
-            $request->image
-        );
-        // $imagePath = Storage::put('uploads', $request->has('image'));
+        // $imagePath = Storage::disk('public')->put(
+        //     'uploads',
+        //     // Fixare
+        //     $request->image
+        // );
+        $imagePath = Storage::put('uploads', $request->has('image'));
 
         $newProject = new Project();
         $newProject->title = $data['title'];
