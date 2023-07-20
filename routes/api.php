@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Api\LeadController;
 use App\Http\Controllers\Api\ProjectController;
 
 /*
@@ -23,4 +24,4 @@ Route::get('projects', [ProjectController::class, 'index'])->name('api.projects.
 Route::get('projects/random', [ProjectController::class, 'random'])->name('api.projects.random');
 Route::get('projects/{project}', [ProjectController::class, 'show'])->name('api.projects.show');
 
-Route::post('contact', [])->name('');
+Route::post('leads/', [LeadController::class, 'store'])->name('api.leads.store');
