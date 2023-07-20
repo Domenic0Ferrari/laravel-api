@@ -9,7 +9,7 @@ use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
 
-class NewContact extends Mailable
+class MailToLead extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -23,15 +23,15 @@ class NewContact extends Mailable
     public function envelope()
     {
         return new Envelope(
-            replyTo: env('ADMIN_ADDRESS', 'admin@boolpress.com'),
-            subject: 'Nuova richiesta da ' . $this->lead->name,
+            replyTo: $this->lead->email,
+            subject: 'Abiamo ricevuto la tua richiesta ' . $this->lead->name,
         );
     }
 
     public function content()
     {
         return new Content(
-            view: 'emails.mail-to-admin',
+            view: 'emails.mail-to-lead',
         );
     }
 
